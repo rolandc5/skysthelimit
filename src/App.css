@@ -157,14 +157,14 @@
         z-index: 0;
         width: 100%;
         position: fixed;
-        top: 100px;
+        top: 25px;
         animation-name: backgroundMove;
         animation-duration: 10s;
     }
     
     @keyframes backgroundMove {
-        from { top: -400px }
-        to { top: 100px }
+        from { top: -500px }
+        to { top: 25px }
     }
     
     .r-container  {
@@ -178,15 +178,15 @@
         position: fixed;
         height: 6em;
         width: 4em;
-        top: 430px;
+        top: 230px;
         animation-name: rocketUp;
         animation-duration: 10s;
     }
     
     @keyframes rocketUp {
-        0% { top: 500px; height: 6em; width: 4em;}
-        50% { top: 300px; height: 20em; width: 16em; }
-        100% { top: 430px; height: 6em; width: 4em; }
+        0% { top: 420px; height: 6em; width: 4em;}
+        50% { top: 260px; height: 20em; width: 16em; }
+        100% { top: 230px; height: 6em; width: 4em; }
     }
     
     .cloudso {
@@ -284,14 +284,14 @@
         width: 45%;
         left: 103px;
         position: fixed;
-        top: 500px;
+        top: 300px;
         animation-name: moonMove;
         animation-duration: 10s;
     }
     
     @keyframes moonMove {
         from { top: -4208px }
-        to { top: 500px }
+        to { top: 300px }
     }
     
 }
