@@ -1,0 +1,145 @@
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.r-container  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.r-rocket {
+    z-index: 1;
+    position: fixed;
+    height: 10em;
+    width: 8em;
+    top: 380px;
+    animation-name: rocketUp;
+    animation-duration: 10s;
+}
+
+@keyframes rocketUp {
+    0% { top: 746px; height: 10em; width: 8em;}
+    50% { top: 400px; height: 20em; width: 16em; }
+    100% { top: 380px; height: 10em; width: 8em; }
+}
+
+.background {
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    animation-name: backgroundMove;
+    animation-duration: 10s;
+}
+
+@keyframes backgroundMove {
+    from { top: -4208px }
+    to { top: 0px }
+}
+
+.cloudso {
+    z-index: 0;
+    width: 20em;
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    animation-name: cloudso;
+    animation-duration: 4s;
+}
+
+@keyframes cloudso {
+    from { top: 0px }
+    to { top: 1500px }
+}
+
+.cloudsw {
+    z-index: 0;
+    width: 20em;
+    position: absolute;
+    top: 1500px;
+    left: 400px;
+    animation-name: cloudsw;
+    animation-duration: 4s;
+}
+
+@keyframes cloudsw {
+    from { top: 200px }
+    to { top: 1500px }
+}
+
+.cloudse {
+    z-index: 5;
+    width: 40em;
+    position: absolute;
+    top: 1500px;
+    left: 700px;
+    animation-name: cloudse;
+    animation-duration: 5s;
+}
+
+@keyframes cloudse {
+    from { top: -200px }
+    to { top: 1500px }
+}
+
+.cloudsr {
+    z-index: 0;
+    width: 20em;
+    position: absolute;
+    top: 1500px;
+    left: 1000px;
+    animation-name: cloudsr;
+    animation-duration: 4s;
+}
+
+@keyframes cloudsr {
+    from { top: 100px }
+    to { top: 1500px }
+}
+
+.cloudst {
+    z-index: 0;
+    width: 20em;
+    position: absolute;
+    top: 1500px;
+    left: 1200px;
+    animation-name: cloudst;
+    animation-duration: 4s;
+}
+
+@keyframes cloudst {
+    from { top: 0px }
+    to { top: 1500px }
+}
+
+.cloudsy {
+    z-index: 0;
+    width: 20em;
+    position: absolute;
+    top: 1500px;
+    left: 1500px;
+    animation-name: cloudsy;
+    animation-duration: 4s;
+}
+
+@keyframes cloudsy {
+    from { top: 0px }
+    to { top: 1500px }
+}
+
+.moon {
+    z-index: 0;
+    width: 45%;
+    left: 525px;
+    position: absolute;
+    top: 500px;
+    animation-name: moonMove;
+    animation-duration: 10s;
+}
+
+@keyframes moonMove {
+    from { top: -4208px }
+    to { top: 500px }
+}
