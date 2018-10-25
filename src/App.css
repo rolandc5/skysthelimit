@@ -220,7 +220,7 @@
     }
     
     .cloudse {
-        z-index: 5;
+        z-index: 10;
         width: 10em;
         position: fixed;
         top: 1500px;
