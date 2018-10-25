@@ -28,7 +28,7 @@
 .background {
     z-index: 0;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0px;
     animation-name: backgroundMove;
     animation-duration: 10s;
@@ -42,7 +42,7 @@
 .cloudso {
     z-index: 0;
     width: 20em;
-    position: absolute;
+    position: fixed;
     top: 1500px;
     left: 200px;
     animation-name: cloudso;
@@ -57,7 +57,7 @@
 .cloudsw {
     z-index: 0;
     width: 20em;
-    position: absolute;
+    position: fixed;
     top: 1500px;
     left: 400px;
     animation-name: cloudsw;
@@ -72,7 +72,7 @@
 .cloudse {
     z-index: 5;
     width: 40em;
-    position: absolute;
+    position: fixed;
     top: 1500px;
     left: 700px;
     animation-name: cloudse;
@@ -87,7 +87,7 @@
 .cloudsr {
     z-index: 0;
     width: 20em;
-    position: absolute;
+    position: fixed;
     top: 1500px;
     left: 1000px;
     animation-name: cloudsr;
@@ -102,7 +102,7 @@
 .cloudst {
     z-index: 0;
     width: 20em;
-    position: absolute;
+    position: fixed;
     top: 1500px;
     left: 1200px;
     animation-name: cloudst;
@@ -117,7 +117,7 @@
 .cloudsy {
     z-index: 0;
     width: 20em;
-    position: absolute;
+    position: fixed;
     top: 1500px;
     left: 1500px;
     animation-name: cloudsy;
@@ -133,7 +133,7 @@
     z-index: 0;
     width: 45%;
     left: 525px;
-    position: absolute;
+    position: fixed;
     top: 500px;
     animation-name: moonMove;
     animation-duration: 10s;
@@ -156,7 +156,7 @@
     .background {
         z-index: 0;
         width: 100%;
-        position: absolute;
+        position: fixed;
         top: 100px;
         animation-name: backgroundMove;
         animation-duration: 10s;
@@ -192,7 +192,7 @@
     .cloudso {
         z-index: 0;
         width: 5em;
-        position: absolute;
+        position: fixed;
         top: 1500px;
         left: 20px;
         animation-name: cloudso;
@@ -207,7 +207,7 @@
     .cloudsw {
         z-index: 0;
         width: 5em;
-        position: absolute;
+        position: fixed;
         top: 1500px;
         left: 50px;
         animation-name: cloudsw;
@@ -222,7 +222,7 @@
     .cloudse {
         z-index: 5;
         width: 10em;
-        position: absolute;
+        position: fixed;
         top: 1500px;
         left: 25px;
         animation-name: cloudse;
@@ -237,7 +237,7 @@
     .cloudsr {
         z-index: 0;
         width: 5em;
-        position: absolute;
+        position: fixed;
         top: 1500px;
         left: 80px;
         animation-name: cloudsr;
@@ -252,7 +252,7 @@
     .cloudst {
         z-index: 0;
         width: 5em;
-        position: absolute;
+        position: fixed;
         top: 1500px;
         left: 90px;
         animation-name: cloudst;
@@ -267,7 +267,7 @@
     .cloudsy {
         z-index: 0;
         width: em;
-        position: absolute;
+        position: fixed;
         top: 1500px;
         left: 10px;
         animation-name: cloudsy;
@@ -283,7 +283,7 @@
         z-index: 0;
         width: 45%;
         left: 103px;
-        position: absolute;
+        position: fixed;
         top: 500px;
         animation-name: moonMove;
         animation-duration: 10s;
