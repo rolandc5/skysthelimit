@@ -163,7 +163,7 @@
     }
     
     @keyframes backgroundMove {
-        from { top: -346px }
+        from { top: -400px }
         to { top: 100px }
     }
     
@@ -184,8 +184,8 @@
     }
     
     @keyframes rocketUp {
-        0% { top: 575px; height: 6em; width: 4em;}
-        50% { top: 400px; height: 20em; width: 16em; }
+        0% { top: 500px; height: 6em; width: 4em;}
+        50% { top: 300px; height: 20em; width: 16em; }
         100% { top: 430px; height: 6em; width: 4em; }
     }
     
